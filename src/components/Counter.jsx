@@ -20,8 +20,8 @@ function Counter() {
           The Counter App is a basic web application that allows users to
           increase, decrease, or reset a number displayed on the screen.
         </p>
-        <h2 className="text-4xl">{counter}</h2>
-        <div className="flex gap-2">
+        <h2 className="text-5xl text-center ">{counter}</h2>
+        <div className="flex gap-2 p-2">
           <button
             onClick={incrementHandler}
             className="bg-green-600 hover:bg-green-700 text-xs text-white w-28 rounded-md cursor-pointer"
