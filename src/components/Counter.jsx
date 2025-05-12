@@ -14,7 +14,7 @@ function Counter() {
 
   return (
     <>
-      <div className="w-full max-w-md mx-auto pt-5">
+      <div className="w-full max-w-md mx-auto mt-5">
         <h1 className="text-2xl font-bold">This is a Simple Counter App</h1>
         <p className="text-xl">
           The Counter App is a basic web application that allows users to
