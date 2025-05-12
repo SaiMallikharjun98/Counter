@@ -24,19 +24,19 @@ function Counter() {
         <div className="flex gap-2 p-10">
           <button
             onClick={incrementHandler}
-            className="bg-green-600 hover:bg-green-700 text-xs text-white w-28 rounded-md cursor-pointer"
+            className="bg-green-600 hover:bg-green-700 text-xs text-white w-28 rounded-md cursor-pointer h-5"
           >
             Increment
           </button>
           <button
             onClick={resetHandler}
-            className="bg-violet-500 hover:bg-violet-700 text-xs text-white w-28 rounded-md cursor-pointer"
+            className="bg-violet-500 hover:bg-violet-700 text-xs text-white w-28 rounded-md cursor-pointer h-5"
           >
             Reset
           </button>
           <button
             onClick={decrementHandler}
-            className="bg-red-500 hover:bg-red-700 text-xs text-white w-28 rounded-md cursor-pointer"
+            className="bg-red-500 hover:bg-red-700 text-xs text-white w-28 rounded-md cursor-pointer h-5"
           >
             Decrement
           </button>
